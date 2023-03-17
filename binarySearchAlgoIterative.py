@@ -24,7 +24,7 @@ def BinarySearch(search, target):
     # If no value is found, then return not found
     return -1
 
-# Just to keep note of which functino we want running when we debug
+# Just to keep note of which function we want running when we debug
 if __name__ == "__main__":
     searchSeries = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
     target = 6
