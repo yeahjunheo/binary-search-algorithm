@@ -19,9 +19,6 @@ def BinarySearch(search, start, end, target):
     # If the condition is not met above, we'll make a new series that starts at the value after the middle
     else:
         return BinarySearch(search, middle + 1, end, target)
-    
-    
-
 
 # This will run the code from above as long as it is called
 if __name__ == "__main__":
