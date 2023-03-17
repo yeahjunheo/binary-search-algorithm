@@ -26,23 +26,14 @@ def BinarySearch(search, start, end, target):
 # This will run the code from above as long as it is called
 if __name__ == "__main__":
     searchSeries = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
-    target1 = 6
-    # target2 = 5
+    target = 8
     start = 0
     end = len(searchSeries) - 1
     
     # This will test for target1 which will search for a number within the series
-    # While the second will test for traget2 which is not in the series
-    index1 = BinarySearch(searchSeries, start, end, target1)
+    index = BinarySearch(searchSeries, start, end, target)
     
-    if index1 != -1:
-        print("Element found at index", index1)
+    if index != -1:
+        print("Element found at index", index)
     else:
         print("Element not found in series")
-    
-    # index2 = BinarySearch(searchSeries, start, end, target2)
-    
-    # if index2 != -1:
-    #     print("Element found at index", index2)
-    # else:
-    #     print("Element not found in series")
