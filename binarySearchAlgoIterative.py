@@ -27,7 +27,7 @@ def BinarySearch(search, target):
 # Just to keep note of which function we want running when we debug
 if __name__ == "__main__":
     searchSeries = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
-    target = 6
+    target = 15
     
     index = BinarySearch(searchSeries, target)
     
